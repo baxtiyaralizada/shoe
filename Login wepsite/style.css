@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+
+*{
+margin: 0;
+padding: 0;
+
+}
+
+
+
+
+.head{
+background-color:rgb(73, 73, 147);
+color: #fff;
+height: 70px;
+font-family: "Montserrat", sans-serif;;
+
+}
+
+
+
+.navbar{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top:20px ;
+margin: 0 40px;
+}
+
+
+.navbar h2{
+cursor: pointer;
+
+}
+
+a:nth-child(1){
+    background-color:rgb(243, 44, 4) ;
+}
+
+
+.right a{
+
+padding: 10px;
+text-decoration: none;
+color: #fff;
+opacity: 0.8;
+}
+
+.right a:hover{
+background-color: rgb(243, 44, 4);
+transition: 0.5s;
+
+}
+/*head end*/
+
+/*center star*/
+
+.center{
+height: 667px;
+background-size: cover;
+background-repeat: no-repeat;
+background-image:url(https://c4.wallpaperflare.com/wallpaper/392/713/259/2018-dag-do%C4%9Fa-girl-wallpaper-preview.jpg) ;
+text-align: center;
+
+}
+
+
+.text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    padding-top: 233px;
+}
+
+.text h1{
+font-size: 60px;
+margin-bottom: 10px;
+}
+
+.text h2{
+    font-size: 50px;
+        color: #fff;
+        margin-bottom: 30px;
+}
+
+
+
+button{
+color: #fff;
+background-color:#e72828 ;
+border: 1px solid black;
+border-radius: 30px;
+padding: 8px 15px;
+font-size: 16px;
+cursor: pointer;
+font-weight: bold;
+}
+
+button:hover{
+background-color: #fff;
+color: black;
+transition: 0.7s;
+}
+

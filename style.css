@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #1e2227;
+  color: #fff;
+}
+
+nav {
+  padding: 30px 8%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #030d17;
+  display: flex;
+  height: 25px;
+  position: fixed;
+  top: 0;
+  width: 90%;
+  z-index: 1;
+}
+
+nav .nav-links a {
+  color: #fff;
+  padding-right: 70px;
+  font-size: 26px;
+}
+
+img {
+  height: 90px;
+  margin-left: -40px;
+  margin-top: -20px;
+  margin-bottom: -15px;
+  width: 260px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.row {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.row .col-1,
+.row .col-2 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+
+.col-1 {
+  padding-left: 8%;
+}
+
+.col-1 h1 {
+  font-size: 74px;
+  line-height: 100px;
+  margin-bottom: 5px;
+}
+
+.col-1 p {
+  padding-right: 10px;
+  line-height: 1.4;
+}
+
+.col-1 .price {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+  column-gap: 10px;
+  margin-top: 10px;
+}
+
+.col-1 h2 {
+  font-size: 25px;
+  line-height: -5px;
+}
+
+.col-1 .buttons {
+  display: flex;
+  column-gap: 10px;
+  flex-wrap: wrap;
+}
+
+.col-1 .buttons button,
+.col-1 .buttons a {
+  display: inline-block;
+  width: fit-content;
+  padding: 18px 50px;
+  background-color: blue;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+}
+
+.col-1 .buttons button:hover,
+.col-1 .buttons a:hover {
+  transform: translateY(-6px);
+  transition: 0.5s ease;
+  background: rgb(32, 32, 74);
+}
+
+.col-2 {
+  background-color: blue;
+  padding-right: 8%;
+  position: relative;
+}
+
+.col-2 .feature-img {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.col-2 .feature-img img {
+  width: 80%;
+  height: 100%;
+  transform: rotate(-20deg);
+}
+
+.col-2 .feature-img img:hover {
+  transform: rotate(0);
+  transition: 0.5s ease;
+}
+
+.smal-img-wrapper {
+  display: flex;
+  width: 80%;
+  margin: 70px auto 0;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 150px;
+}
+
+.smal-img-wrapper .samal-img img {
+  background-color: blue;
+}
+
+
+.smal-img img {
+  width: 150px;
+  height: 100px;
+  transform: rotate(-20deg);
+  margin-bottom: 40px;
+ 
+}
+
+.smal-img img:hover {
+  transform: rotate(0);
+}
